@@ -1,1 +1,125 @@
-Hello World!
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Portfolio" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet" />
+  <script src="https://kit.fontawesome.com/fa62c117c7.js" crossorigin="anonymous"></script>
+  <title>Myles Fung</title>
+  <link rel="stylesheet" type="text/css" href="C:\Users\Owner\OneDrive\Desktop\profile\mylesfung.github.io\styles.css">
+</head>
+
+<body class="light" id="top">
+  <header class="header center">
+    <nav class="nav center">
+      <ul class="nav__list center">
+        <li class="nav__list-item">
+          <p>Project Portfolio</p>
+        </li>
+      </ul>
+
+     
+
+      <button type="button" aria-label="toggle theme" class="btn btn--icon">
+        <i id="btn-theme" class="fas fa-moon"></i>
+      </button>
+
+      <!-- 
+        5.1: What does this button tag correspond to on the site? 
+
+        button to toggle light/dark theme
+
+      --> 
+
+      <button type="button" aria-label="toggle navigation" class="btn btn--icon nav__hamburger">
+        <i class="fas fa-bars"></i>
+      </button>
+
+      <!-- 
+        5.2: Try Ctrl-F in styles.css and look the class 'nav__hamburger'. You'll notice that it
+        appears in 2 places. Why is one of the rules 'display: none' on one instance? How do you
+        make it so that this button appears on screen? 
+        Hint: remember what @media (max-width: 600px) means.
+
+        everthing under @media will not take effect unless the webpage is <= 600px;
+        the hamburger will not appear (display: flex;) until the webapage is shrunk to this size or smaller
+
+
+       -->
+
+     
+    </nav>
+  </header>
+
+  <main>
+    <div class="about center">
+     
+      <div> 
+        <h1><span class="about__name">Myles Fung</span></h1>
+        <div class="about__role">
+          <h2>CS @UC Berkeley</h2>
+          <div class="about__desc">
+            <p>Premature optimization is the root of all evil.</p>
+              <div class="about__contact center">
+                <a href="https://github.com/mylesfung" aria-label="github" class="link link--icon">
+                  <i aria-hidden="true" class="fab fa-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/myles-fung-76007120a/" aria-label="linkedin" class="link link--icon">
+                  <i aria-hidden="true" class="fab fa-linkedin"></i>
+                </a>
+              </div>
+          </div>
+        </div>
+      </div>
+      
+      </div>
+        <section id="projects" class="section projects">
+          <!-- <h2 class="section__title"></h2> -->
+          <div class="projects__grid">
+        
+            <div class="project btn--plain">
+              <h3>name</h3>
+              <p class="project__description">
+                description
+              </p>
+              <ul class="project__stack">
+                <li class="project__stack-item">Python</li>
+                <li class="project__stack-item">Java</li>
+                <li class="project__stack-item">JavaScript</li>
+              </ul>
+              <a href="https://github.com" aria-label="source code" class="link link--icon">
+                <i aria-hidden="true" class="fab fa-github"></i>
+              </a>
+              <a href="https://example.com" aria-label="live preview" class="link link--icon">
+                <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+              </a>
+          </div>
+        </section>
+      </div>
+    </div>
+
+    </div>
+  </main>
+
+  <footer class="footer">
+    <a href="https://youtu.be/dQw4w9WgXcQ" class="link footer__link">
+      footer link
+    </a>
+  </footer>
+
+
+  <div class="scroll-container">
+    <div class="scroll-top">
+      <a aria-label="Scroll up" href="#top">
+        <i aria-hidden="true" class="fas fa-arrow-up"></i>
+      </a>
+    </div>
+  </div>
+  <script src="./script.js"></script>
+</body>
+
+</html>
