@@ -1,0 +1,15 @@
+
+
+body {
+  background-color: rgb(197, 202, 248);
+}
+
+.page-title {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  
+}
+
+#main-text {
+  text-align: center;
+  width: 69%;
+}
