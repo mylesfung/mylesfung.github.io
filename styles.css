@@ -1,16 +1,33 @@
+#title-bar {
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: larger;
+}
+
 #icons {
   word-spacing: 10px;
 }
+img {
+  border-radius: 20%;
+}
+img:hover {
+  transform: rotate(360deg);
+  transition-duration: .5s;
+}
+
+#welcome {
+  font-weight: 550;
+}
 
 body {
-  background-color: rgb(216, 221, 235);
+  background-color: rgb(225, 231, 243);
 }
 
 .page-title {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-align: left;
 }
 
 #main-text {
-  text-align: center;
-  width: 69%;
+  text-align: justify;
+  width: 65%;
 }
