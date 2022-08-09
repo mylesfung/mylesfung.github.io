@@ -18,19 +18,19 @@ img:hover {
   transition-duration: .5s;
 }
 
-#hello {
+#welcome {
   font-weight: 550;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   text-align: left;
 }
 
 body {
-  background-color: rgb(216, 226, 245);
+  background-color: rgb(203, 220, 255);
   color: rgb(58, 58, 58);
-  font-size: large;
+  font-size: larger;
 }
 
-.hobby:hover {
+.main-link:hover {
   color: black;
   background-color: rgb(175, 197, 240);
 }
