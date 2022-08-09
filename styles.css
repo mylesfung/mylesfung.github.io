@@ -25,7 +25,7 @@ img:hover {
 }
 
 body {
-  background-color: rgb(203, 220, 255);
+  background-color: rgb(224, 230, 243);
   color: rgb(58, 58, 58);
   font-size: larger;
 }
@@ -36,6 +36,6 @@ body {
 }
 
 #main-text {
-  text-align: left;
+  text-align: justify;
   width: 85%;
 }
