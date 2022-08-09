@@ -36,6 +36,6 @@ body {
 }
 
 #main-text {
-  text-align: justify;
-  width: 65%;
+  text-align: left;
+  width: 85%;
 }
