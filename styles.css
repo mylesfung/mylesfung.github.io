@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
 #title-bar {
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  font-size: larger;
+  font-family: "Open Sans";
+  font-size: large;
+  color: black;
 }
 
 a {
@@ -19,13 +22,13 @@ img:hover {
 }
 
 #welcome {
-  font-weight: 550;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 590;
+  font-family: "Open Sans";
   text-align: left;
 }
 
 body {
-  background-color: rgb(229, 234, 242);
+  background-color: rgb(229, 235, 243);
   color: rgb(58, 58, 58);
   font-size: larger;
 }
@@ -38,4 +41,5 @@ body {
 #main-text {
   text-align: justify;
   width: 85%;
+  font-family: "Open Sans";
 }
