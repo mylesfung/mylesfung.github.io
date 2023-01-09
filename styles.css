@@ -33,7 +33,7 @@ img:hover {
 }
 
 body {
-  background-color: rgb(239, 242, 245);
+  background-color: rgb(242, 244, 247);
   color: rgb(39, 39, 39);
   font-size: larger;
 }
@@ -47,6 +47,6 @@ body {
 
 #main-text {
   text-align: justify;
-  width: 50%;
+  width: 60%;
   font-family: "Open Sans";
 }
