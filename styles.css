@@ -1,7 +1,7 @@
 #title {
   margin-top: 40px;
   margin-bottom: 40px;
-  font-size: 55px;
+  font-size: 60px;
   opacity: 0.05;
   letter-spacing: 10px;
 }
@@ -33,6 +33,7 @@ body {
   margin-left: auto;
   margin-right: auto;
   width: 550px;
+  font-size: 16px;
 }
 
 ul.items {
