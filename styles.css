@@ -8,16 +8,9 @@
 
 #icons {
   word-spacing: 15px;
-}
-img {
   border-radius: 3%;
   text-align: center;
 }
-/*
-img:hover {
-  transform: rotate(360deg);
-  transition-duration: .5s;
-}*/
 
 #index {
   margin-top: 5px;
@@ -52,9 +45,5 @@ ul.items {
 .main-link:hover {
   background-color: #eff7ff;
   /*color: aliceblue;*/
-}
-
-#art {
-  margin-left: auto;
 }
 
