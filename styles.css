@@ -1,18 +1,25 @@
 #title {
-  margin-top: -10px;
+  margin-top: 50px;
   margin-bottom: 40px;
   font-size: 60px;
-  opacity: 0.1;
+  opacity: 0.7;
   padding: 20px;
   letter-spacing: 10px;
-  color:rgb(35, 74, 156);
-  background-color: rgb(213, 214, 232);
+  color: rgb(187, 205, 233);
+  background-color: rgb(244, 245, 251);
 }
 
 #icons {
-  word-spacing: 15px;
+  word-spacing: 25px;
   border-radius: 3%;
   text-align: center;
+}
+
+img {
+  transition: transform .33s ease-in-out;
+}
+img:hover {
+  transform: rotateY(180deg);
 }
 
 #index {
@@ -25,7 +32,6 @@
 body {
   background-color: rgb(255, 255, 255);
   color: rgb(39, 39, 39);
-  font-size: smaller;
   font-family: Verdana;
   text-align: center;
 }
@@ -41,13 +47,14 @@ body {
 
 ul.items {
   list-style-type: square;
+  font-size: 15.5px;
 }
 
 .main-link {
-  color: rgb(35, 74, 156);
+  color: rgb(39, 90, 200);
 }
 .main-link:hover {
-  background-color: #eff7ff;
+  background-color: #dae7f5;
   /*color: aliceblue;*/
 }
 
