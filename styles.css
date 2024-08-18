@@ -1,25 +1,20 @@
 #title {
   margin-top: 50px;
   margin-bottom: 40px;
-  font-size: 60px;
-  opacity: 0.7;
-  padding: 20px;
-  letter-spacing: 10px;
-  color: rgb(187, 205, 233);
-  background-color: rgb(244, 245, 251);
+  font-size: 80px;
+  font-family: "verdana";
+  font-weight: 900;
+  margin-top: 10px;
+  opacity: 0.8;
+  letter-spacing: -8px;
+  color: rgb(125, 133, 170);
+}
+#title:hover {
+  color: white;
 }
 
-#icons {
-  word-spacing: 25px;
-  border-radius: 3%;
+#image {
   text-align: center;
-}
-
-#icon {
-  transition: transform .33s ease-in-out;
-}
-#icon:hover {
-  transform: rotateY(180deg);
 }
 
 #index {
@@ -30,19 +25,26 @@
 }
 
 body {
-  background-color: rgb(255, 255, 255);
-  color: rgb(39, 39, 39);
-  font-family: Verdana;
+  background-color: rgb(0, 22, 137);
+  color: rgb(255, 255, 255);
+  font-family: "Sabon LT Std";
   text-align: center;
 }
 
-#main-text {
+#about {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  flex-direction: column;
   text-align: justify;
   margin-top: 30px;
   margin-left: auto;
   margin-right: auto;
-  width: 550px;
+  width: 600px;
   font-size: 16px;
+}
+h1 {
+  text-align: center;
 }
 
 ul.items {
@@ -50,11 +52,34 @@ ul.items {
   font-size: 15.5px;
 }
 
-.main-link {
-  color: rgb(39, 90, 200);
+nav {
+  text-align: center;
+  word-spacing: 60px;
 }
-.main-link:hover {
-  background-color: #dae7f5;
-  /*color: aliceblue;*/
+a {
+  color: white;
+  text-decoration: none;
+  position: relative;
+}
+a::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 1px;
+  background-color: currentColor;
+  transition: width 0.5s ease;
+}
+a:hover::after {
+  width: 100%;
 }
 
+footer {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-bottom: 1em;
+  text-align: center;
+}
