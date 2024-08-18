@@ -17,13 +17,6 @@
   text-align: center;
 }
 
-#index {
-  margin-top: 5px;
-  font-size: medium;
-  font-family: "verdana";
-  text-align: center;
-}
-
 body {
   background-color: rgb(0, 22, 137);
   color: rgb(255, 255, 255);
@@ -47,11 +40,6 @@ h1 {
   text-align: center;
 }
 
-ul.items {
-  list-style-type: square;
-  font-size: 15.5px;
-}
-
 nav {
   text-align: center;
   word-spacing: 60px;
@@ -73,6 +61,14 @@ a::after {
 }
 a:hover::after {
   width: 100%;
+}
+
+#art-flexbox {
+  display: flex;
+  justify-content: space-evenly;
+  row-gap: 30px;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 footer {
