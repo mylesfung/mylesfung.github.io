@@ -75,6 +75,27 @@ a:hover::after {
   font-size: larger;
 }
 
+#writing {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  flex-direction: column;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 600px;
+}
+
+#quotes {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  text-align: justify;
+  margin-left: auto;
+  margin-right: auto;
+  width: 600px;
+}
+
 footer {
   position: absolute;
   bottom: 0;
