@@ -12,12 +12,63 @@
 #title:hover {
     color: white;   
 }
+#image {
+    text-align: center;
+  }
   
 body {
-    background-color: rgb(211, 214, 232);
+    background-image: url('images/1975\ Grey.png');
+    background-size: cover;
+    background-attachment: fixed;
     color: rgb(0, 22, 137);
     font-family: "Sabon LT Std";
     text-align: center;
+}
+
+#about {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-direction: column;
+    text-align: justify;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+  }
+h1 {
+    text-align: center;
+}
+#projects {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    flex-direction: column;
+    text-align: justify;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+}
+
+nav {
+    text-align: center;
+    word-spacing: 60px;
+}
+a:hover::after {
+    width: 100%;
+}
+
+#contact, #writing {
+    font-size: larger;
+}
+
+#quotes {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    text-align: justify;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
 }
 
 #art-flexbox {
@@ -59,3 +110,6 @@ footer {
     margin-bottom: 1em;
     text-align: center;
 }
+.footer {
+    opacity: .4;
+  }
