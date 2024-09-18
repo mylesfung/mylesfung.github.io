@@ -35,6 +35,9 @@ body {
     margin-right: auto;
     width: 600px;
   }
+.main-text {
+    font-size: larger;
+}
 h1 {
     text-align: center;
 }
@@ -52,9 +55,7 @@ h1 {
 nav {
     text-align: center;
     word-spacing: 60px;
-}
-a:hover::after {
-    width: 100%;
+    font-size: larger;
 }
 
 #contact, #writing {
@@ -73,15 +74,10 @@ a:hover::after {
 
 #art-flexbox {
     display: flex;
-    justify-content: space-evenly;
     row-gap: 30px;
-    flex-direction: row;
+    flex-direction: column;
+    align-items: center;
     flex-wrap: wrap;
-}
-
-nav {
-    text-align: center;
-    word-spacing: 60px;
 }
 a {
     color: rgb(0, 22, 137);
