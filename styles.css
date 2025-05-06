@@ -1,6 +1,6 @@
 #title {
     margin-top: 50px;
-    margin-bottom: 40px;
+    margin-bottom: 25px;
     font-size: 80px;
     font-family: "verdana";
     font-weight: 900;
@@ -36,7 +36,7 @@ body {
     width: 600px;
   }
 .main-text {
-    font-size: larger;
+    font-size: large;
 }
 h1 {
     text-align: center;
