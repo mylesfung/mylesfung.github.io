@@ -72,6 +72,17 @@ nav {
     width: 600px;
 }
 
+#sweden {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    flex-direction: column;
+    text-align: justify;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+}
+
 #art-flexbox {
     display: flex;
     row-gap: 30px;
