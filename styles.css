@@ -33,10 +33,10 @@ body {
     text-align: justify;
     margin-left: auto;
     margin-right: auto;
-    width: 600px;
+    width: 500px;
   }
 .main-text {
-    font-size: large;
+    font-size: medium;
 }
 h1 {
     text-align: center;
@@ -49,17 +49,17 @@ h1 {
     text-align: justify;
     margin-left: auto;
     margin-right: auto;
-    width: 600px;
+    width: 500px;
 }
 
 nav {
     text-align: center;
     word-spacing: 60px;
-    font-size: larger;
+    font-size: mediumr;
 }
 
 #contact, #writing {
-    font-size: larger;
+    font-size: mediumr;
 }
 
 #quotes {
@@ -69,7 +69,7 @@ nav {
     text-align: justify;
     margin-left: auto;
     margin-right: auto;
-    width: 600px;
+    width: 500px;
 }
 
 #sweden {
@@ -80,7 +80,7 @@ nav {
     text-align: justify;
     margin-left: auto;
     margin-right: auto;
-    width: 600px;
+    width: 500px;
 }
 
 #art-flexbox {
@@ -90,6 +90,25 @@ nav {
     align-items: center;
     flex-wrap: wrap;
 }
+#sweden-flexbox {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    gap: 10px;
+    width: 100%;
+    justify-items: center;
+    padding: 8px 0;
+}
+#sweden-flexbox img {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    display: block;
+    box-shadow: none;
+    border-radius: 0;
+    background: #eee;
+    max-width: 100%;
+}
+
 a {
     color: rgb(0, 22, 137);
     text-decoration: none;
