@@ -1,72 +1,67 @@
 #title {
-    margin-top: 50px;
-    margin-bottom: 25px;
-    font-size: 80px;
+    font-size: 40px;
     font-family: "verdana";
-    font-weight: 900;
-    margin-top: 10px;
+    font-weight: 400;
     opacity: 0.8;
-    letter-spacing: -8px;
-    color: rgb(125, 133, 170);
+    letter-spacing: -2px;
+    color: rgb(139, 139, 171);
 }
-#title:hover {
-    color: white;   
+#navbar {
+    display: flex;
+    justify-content: center;
+    align-items:baseline;
+    gap: 45px;
+    padding: 10px;
+    height: 60px;
+    margin-bottom: 80px;
 }
+
 #image {
     text-align: center;
   }
   
 body {
-    background-image: url('images/1975\ Grey.png');
     background-size: cover;
     background-attachment: fixed;
-    color: rgb(0, 22, 137);
-    font-family: "Sabon LT Std";
+    background-color: rgb(0, 39, 90);
+    color: rgb(255, 255, 255);
+    font-family: "verdana";
     text-align: center;
 }
 
-#about {
+#home {
     display: flex;
-    justify-content: space-between;
-    gap: 20px;
-    flex-direction: column;
+    gap: 45px;
     text-align: justify;
     margin-left: auto;
     margin-right: auto;
     width: 500px;
   }
-.main-text {
-    font-size: medium;
+p {
+    font-size: 12px;
 }
-h1 {
-    text-align: center;
+h5 {
+    text-align: left;
 }
 #projects {
     display: flex;
     justify-content: space-between;
     gap: 10px;
     flex-direction: column;
-    text-align: justify;
+    text-align: left;
     margin-left: auto;
     margin-right: auto;
     width: 500px;
 }
 
 nav {
-    text-align: center;
-    word-spacing: 60px;
-    font-size: mediumr;
+    word-spacing: 55px;
 }
 
-#contact, #writing {
-    font-size: mediumr;
-}
-
-#quotes {
+#quotes-flexbox {
     display: flex;
-    justify-content: space-between;
     flex-direction: column;
-    text-align: justify;
+    text-align: left;
     margin-left: auto;
     margin-right: auto;
     width: 500px;
@@ -110,22 +105,9 @@ nav {
 }
 
 a {
-    color: rgb(0, 22, 137);
+    color: rgb(209, 218, 250);
     text-decoration: none;
     position: relative;
-}
-a::after {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 0;
-    height: 1px;
-    background-color: currentColor;
-    transition: width 0.5s ease;
-}
-a:hover::after {
-    width: 100%;
 }
 
 footer {

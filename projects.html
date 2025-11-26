@@ -9,49 +9,48 @@
   </head>
 
  <body>
-    <p id="title">MYLES FUNG</p> 
-    <nav>
-      <a href="index.html">About</a>
-      <a href="projects.html">Projects</a>
-      <a href="quotes.html">Quotes</a>
-      <a href="art.html">Art</a>
-    </nav>
-    <br>
-    <h1>Projects</h1>
+    <div id="navbar">
+      <p id="title">Myles Fung</p> 
+      <nav>
+        <a href="index.html">home</a>
+        <a href="projects.html">projects</a>
+        <a href="quotes.html">quotes</a>
+        <a href="art.html">art</a>
+      </nav>
+    </div>
+
     <div id="projects">
+
       <div>
-        <h3><a href="https://travelsweden-229697904181.us-west1.run.app/" style="color: rgb(0, 33, 199);">TravelSkåne</a> | <i>React, Spring Boot, PostgreSQL</i> | 
-          <a href="https://github.com/mylesfung/TravelSweden" style="color: rgb(0, 33, 199);">Code</a></h3>
+        <h5>TravelSkåne |
+          <a href="https://github.com/mylesfung/TravelSweden" style="color: rgb(0, 33, 199);">Code</a></h5>
       <p>
-        Travel dashboard app offering prospective travelers and study abroad students 
-        useful information and stories to learn more about 
-      <a href="sweden.html" style="color: rgb(0, 33, 199);">Skåne County</a> in southern Sweden.
+        Full-stack travel dashboard (React + Spring Boot) with user auth, reviews
+        API, and dockerized PostgreSQL. Deployed on Cloud Run for scalable, containerized hosting.
 
       </p>
       </div>    
       <div>
-          <h3>Krusty API | <i>Java, MySQL</i> | <a href="https://github.com/mylesfung/krusty-kookies" style="color: rgb(0, 33, 199);">Code</a></h3>
+          <h5>Bakery App Database | <a href="https://github.com/mylesfung/krusty-kookies" style="color: rgb(0, 33, 199);">Code</a></h5>
         <p>
-          Implementation of REST API for 'Krusty Kookies' bakery app's production system. 
+           Relational UML schema and transactional inventory/order logic via JDBC, ensuring
+           ACID compliance for concurrent bakery operations.
         </p>
       </div>  
       <div>
-        <h3>Pac-Man Clone | <i>Java</i></h3>
+        <h5>Transmission Control Protocol</h5>
       <p>
-        Game engine powering a two-dimensional, tile-based game, featuring pseudorandomly-generated
-        maps, explorable rooms, hallways, and interactive elements.
+        Custom TCP stack in Python supporting handshake, ordered bytestream transport, 
+        retransmission, and teardown; validated correctness using controlled packet-loss scenarios.
       </p>
       </div>    
       <div>
-        <h3>Weight Room Web Scraper | <i>Python, Selenium</i> | <a href="https://github.com/mylesfung/selenium-scraping" style="color: rgb(0, 33, 199);">Code</a></h3>
+        <h5>Weight Room Web Scraper | <a href="https://github.com/mylesfung/selenium-scraping" style="color: rgb(0, 33, 199);">Code</a></h5>
       <p>
-        Automation script which extracts capacity data from the UC Berkeley Weight Room Capacity Meter.
+        Automated capacity scraping for UC Berkeley Weight Room using Python + Selenium, enabling real-time utilization tracking.
       </p>
       </div>        
     </div>
     
-    <br>
-    <span class="footer">Theme inspired by: <a href="https://the1975.com/">the1975.com</a></span>
-    <br><br>
   </body>
 </html>
