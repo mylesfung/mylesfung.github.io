@@ -42,6 +42,7 @@ p {
 }
 h5 {
     text-align: left;
+    color: rgb(196, 255, 108);
 }
 #projects {
     display: flex;
