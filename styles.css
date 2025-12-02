@@ -5,7 +5,7 @@
     gap: 45px;
     padding: 10px;
     height: 60px;
-    margin-bottom: 70px;
+    margin-bottom: 68px;
 }
 @media (max-width: 650px) {
   #navbar {
@@ -45,7 +45,7 @@ body {
     width: 500px;
   }
 #profile-photo {
-    margin-top: 20px;
+    margin-top: 26px;
 }
 
 p {
